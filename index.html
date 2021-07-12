@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wanderlust</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <style>
+
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="css/TFA102.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="./img/wanderlust_logo.png" alt="Logo" width="180" height="50" class="img-fluid">
+      </a>
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item ms-1">
+            <a class="nav-link" aria-current="page" href="#">會員中心</a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="#">行程規劃</a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="#">熱門票卷</a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="#">旅遊文章</a>
+          </li>
+        </ul>
+        <form class="d-flex"></form>
+        <button id="search" class="btn btn-sm btn-outline-success me-2" type="submit">註冊登入</button>
+        <button id="car" class="btn btn-sm btn-outline-primary me-2" type="submit">購物車</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+
+  </header>
+
+  <!-- 輪播圖 -->
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" src="https://picsum.photos/1300/500?random10" alt="#" width="100%"
+            height="100%">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>近期熱門</h3>
+              <p>人氣精選,此生必去</p>
+              <p><a class="btn btn-md btn-secondary" href="#">查看更多</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" src="https://picsum.photos/1300/500?random11" alt="#" width="100%"
+            height="100%">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>人文風情</h3>
+              <p>探索當地,深入瞭解</p>
+              <p><a class="btn btn-md btn-secondary" href="#">查看更多</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" src="https://picsum.photos/1300/500?random12" alt="#" width="100%"
+            height="100%">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>在地推薦</h3>
+              <p>在地推薦,不去後悔</p>
+              <p><a class="btn btn-md btn-secondary" href="#">查看更多</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- 近期熱門部分 -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container hot">
+
+      <div class="row">
+
+        <div class="col-12 col-lg-4">
+          <div class="item h-100">
+            <img src="https://picsum.photos/300/200?random13" alt="#" width="300" height="200">
+            <h3>近期熱門景點</h3>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+              first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-12 col-lg-4">
+          <div class="item h-100">
+            <img src="https://picsum.photos/300/200?random14" alt="#" width="300" height="200">
+            <h3>近期熱門套裝行程</h3>
+            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+              column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-12 col-lg-4">
+          <div class="item h-100">
+            <img src="https://picsum.photos/300/200?random15" alt="#" width="300" height="200">
+            <h3>近期熱門活動</h3>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+
+      <!-- 遊記區塊 -->
+      <hr>
+
+      <div class="row story">
+        <div class="col-md-7">
+          <h4 class="story-heading">嘉義梅山 x 阿里山眠月線｜走入失落的森林鐵道</h4>
+          <p class="lead">中秋連假的第一天，一大早到終點高鐵南港站排上了自由座，一路向南，為了租到Irent 七人坐車，提早在嘉義的前一站雲林下車。這趟旅程目的明確，往山裡去，往深山裡去...</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://picsum.photos/500/300?random15" alt="" class="story-image img-fluid mx-auto h-100"
+            width="500">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row story">
+        <div class="col-md-7">
+          <h4 class="story-heading">宜蘭｜漫步在雲霧中的見晴懷古步道</h4>
+          <p class="lead">在太平山國家公園入口處繳交入場費，接著途中會經過歷史悠久的老神木，看到第二張照片的路牌就是見晴懷古步道入口囉..</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-5 ">
+          <img src="https://picsum.photos/500/300?random16" alt="" class="story-image img-fluid mx-auto h-100"
+            width="500">
+        </div>
+      </div>
+
+
+      <hr>
+
+      <div class="row story">
+        <div class="col-md-7">
+          <h4 class="story-heading">外婆的澎湖三日遊</h4>
+          <p class="lead">一大早從松山機場搭飛機到了澎湖馬公機場，看看時間也才早上7:45,心情非常亢奮迎接我的第一天...</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://picsum.photos/500/300?random17" alt="" class="story-image img-fluid mx-auto h-100"
+            width="500">
+        </div>
+      </div>
+
+      <hr>
+      <!-- 遊記區塊  -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; TFA102 Wanderlust &middot; <a href="#">About</a> &middot; <a href="#">Contact</a></p>
+    </footer>
+  </main>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
